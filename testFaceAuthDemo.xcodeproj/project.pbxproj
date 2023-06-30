@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB5DA42564FEEA2197FFC40A /* Pods_testFaceAuthDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AA5DAE5E87C05FB290DE0E /* Pods_testFaceAuthDemo.framework */; };
 		E7DEC4032A3C98BB00A1B156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC4022A3C98BB00A1B156 /* AppDelegate.swift */; };
 		E7DEC4052A3C98BB00A1B156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC4042A3C98BB00A1B156 /* SceneDelegate.swift */; };
 		E7DEC4072A3C98BB00A1B156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC4062A3C98BB00A1B156 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12748536A587C0F9EDCD5A1A /* Pods-testFaceAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.debug.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5F84710A900B6093BFE75AE5 /* Pods-testFaceAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.release.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
+		88AA5DAE5E87C05FB290DE0E /* Pods_testFaceAuthDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testFaceAuthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DEC3FF2A3C98BB00A1B156 /* testFaceAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testFaceAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DEC4022A3C98BB00A1B156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7DEC4042A3C98BB00A1B156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,7 @@
 		E7DEC40B2A3C98BC00A1B156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7DEC40E2A3C98BC00A1B156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7DEC4102A3C98BC00A1B156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F27D312A3C9DC500ECBE61 /* FaceAuthenticatorIproov.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FaceAuthenticatorIproov.xcframework; path = "Pods/FaceAuthenticatorIproov/face-authenticator-iproov/FaceAuthenticatorIproov.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +36,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5DA42564FEEA2197FFC40A /* Pods_testFaceAuthDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C93082F27581D9530DFF8A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12748536A587C0F9EDCD5A1A /* Pods-testFaceAuthDemo.debug.xcconfig */,
+				5F84710A900B6093BFE75AE5 /* Pods-testFaceAuthDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF722AD0C467618C3906163A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7F27D312A3C9DC500ECBE61 /* FaceAuthenticatorIproov.xcframework */,
+				88AA5DAE5E87C05FB290DE0E /* Pods_testFaceAuthDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E7DEC3F62A3C98BB00A1B156 = {
 			isa = PBXGroup;
 			children = (
 				E7DEC4012A3C98BB00A1B156 /* testFaceAuthDemo */,
 				E7DEC4002A3C98BB00A1B156 /* Products */,
+				4C93082F27581D9530DFF8A1 /* Pods */,
+				DF722AD0C467618C3906163A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7DEC4132A3C98BC00A1B156 /* Build configuration list for PBXNativeTarget "testFaceAuthDemo" */;
 			buildPhases = (
+				DF97CBF7DBFFB333A83232A7 /* [CP] Check Pods Manifest.lock */,
 				E7DEC3FB2A3C98BB00A1B156 /* Sources */,
 				E7DEC3FC2A3C98BB00A1B156 /* Frameworks */,
 				E7DEC3FD2A3C98BB00A1B156 /* Resources */,
+				198EA722C83B3B0B274EB7D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +160,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		198EA722C83B3B0B274EB7D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF97CBF7DBFFB333A83232A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testFaceAuthDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7DEC3FB2A3C98BB00A1B156 /* Sources */ = {
@@ -282,19 +352,23 @@
 		};
 		E7DEC4142A3C98BC00A1B156 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12748536A587C0F9EDCD5A1A /* Pods-testFaceAuthDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 67P448578R;
+				DEVELOPMENT_TEAM = GLP488PWA5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testFaceAuthDemo/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Camera Usage";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,19 +384,23 @@
 		};
 		E7DEC4152A3C98BC00A1B156 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F84710A900B6093BFE75AE5 /* Pods-testFaceAuthDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 67P448578R;
+				DEVELOPMENT_TEAM = GLP488PWA5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testFaceAuthDemo/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Camera Usage";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

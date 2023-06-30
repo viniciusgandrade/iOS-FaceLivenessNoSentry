@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FaceAuthenticatorIproov/FaceAuthenticatorIproov.framework/FaceAuthenticatorIproov
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FaceLivenessIproov/FaceLivenessIproov.framework/FaceLivenessIproov
+${PODS_XCFRAMEWORKS_BUILD_DIR}/iProov/iProov.framework/iProov

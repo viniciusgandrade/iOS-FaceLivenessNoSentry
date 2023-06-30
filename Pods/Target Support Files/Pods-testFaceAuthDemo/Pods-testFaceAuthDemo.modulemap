@@ -1,0 +1,6 @@
+framework module Pods_testFaceAuthDemo {
+  umbrella header "Pods-testFaceAuthDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
