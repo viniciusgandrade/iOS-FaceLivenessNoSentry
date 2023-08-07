@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB5DA42564FEEA2197FFC40A /* Pods_testFaceAuthDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AA5DAE5E87C05FB290DE0E /* Pods_testFaceAuthDemo.framework */; };
+		23AE2D52894D41BE2E625F1B /* Pods_testFaceAuthDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A7F326B207E867A380E699 /* Pods_testFaceAuthDemo.framework */; };
 		E7DEC4032A3C98BB00A1B156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC4022A3C98BB00A1B156 /* AppDelegate.swift */; };
 		E7DEC4052A3C98BB00A1B156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC4042A3C98BB00A1B156 /* SceneDelegate.swift */; };
 		E7DEC4072A3C98BB00A1B156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC4062A3C98BB00A1B156 /* ViewController.swift */; };
@@ -17,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12748536A587C0F9EDCD5A1A /* Pods-testFaceAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.debug.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5F84710A900B6093BFE75AE5 /* Pods-testFaceAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.release.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
-		88AA5DAE5E87C05FB290DE0E /* Pods_testFaceAuthDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testFaceAuthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8977A56CC8B68CF097195E6A /* Pods-testFaceAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.release.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A2A7F326B207E867A380E699 /* Pods_testFaceAuthDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testFaceAuthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7908C3674B5BC55BAC67C8 /* Pods-testFaceAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFaceAuthDemo.debug.xcconfig"; path = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E7DEC3FF2A3C98BB00A1B156 /* testFaceAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testFaceAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DEC4022A3C98BB00A1B156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7DEC4042A3C98BB00A1B156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5DA42564FEEA2197FFC40A /* Pods_testFaceAuthDemo.framework in Frameworks */,
+				23AE2D52894D41BE2E625F1B /* Pods_testFaceAuthDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +46,8 @@
 		4C93082F27581D9530DFF8A1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				12748536A587C0F9EDCD5A1A /* Pods-testFaceAuthDemo.debug.xcconfig */,
-				5F84710A900B6093BFE75AE5 /* Pods-testFaceAuthDemo.release.xcconfig */,
+				DD7908C3674B5BC55BAC67C8 /* Pods-testFaceAuthDemo.debug.xcconfig */,
+				8977A56CC8B68CF097195E6A /* Pods-testFaceAuthDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				E7F27D312A3C9DC500ECBE61 /* FaceAuthenticatorIproov.xcframework */,
-				88AA5DAE5E87C05FB290DE0E /* Pods_testFaceAuthDemo.framework */,
+				A2A7F326B207E867A380E699 /* Pods_testFaceAuthDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,11 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7DEC4132A3C98BC00A1B156 /* Build configuration list for PBXNativeTarget "testFaceAuthDemo" */;
 			buildPhases = (
-				DF97CBF7DBFFB333A83232A7 /* [CP] Check Pods Manifest.lock */,
+				BC0F61C8C597665F5BA21601 /* [CP] Check Pods Manifest.lock */,
 				E7DEC3FB2A3C98BB00A1B156 /* Sources */,
 				E7DEC3FC2A3C98BB00A1B156 /* Frameworks */,
 				E7DEC3FD2A3C98BB00A1B156 /* Resources */,
-				198EA722C83B3B0B274EB7D6 /* [CP] Embed Pods Frameworks */,
+				6A10D2A2F3C8D29E6FEF5732 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,7 +162,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		198EA722C83B3B0B274EB7D6 /* [CP] Embed Pods Frameworks */ = {
+		6A10D2A2F3C8D29E6FEF5732 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,7 +179,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DF97CBF7DBFFB333A83232A7 /* [CP] Check Pods Manifest.lock */ = {
+		BC0F61C8C597665F5BA21601 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,7 +352,7 @@
 		};
 		E7DEC4142A3C98BC00A1B156 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12748536A587C0F9EDCD5A1A /* Pods-testFaceAuthDemo.debug.xcconfig */;
+			baseConfigurationReference = DD7908C3674B5BC55BAC67C8 /* Pods-testFaceAuthDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -384,7 +384,7 @@
 		};
 		E7DEC4152A3C98BC00A1B156 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F84710A900B6093BFE75AE5 /* Pods-testFaceAuthDemo.release.xcconfig */;
+			baseConfigurationReference = 8977A56CC8B68CF097195E6A /* Pods-testFaceAuthDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

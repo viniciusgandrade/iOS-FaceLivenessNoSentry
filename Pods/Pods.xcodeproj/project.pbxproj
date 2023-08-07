@@ -7,300 +7,232 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		504229C9ED7C32100CD5F1A0816FA453 /* FaceLivenessIproov */ = {
+		2EEE5F59F3438A0625957CB5FE79E09F /* FaceLiveness */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8A6B0257E5BD530DDA8022821416BD23 /* Build configuration list for PBXAggregateTarget "FaceLivenessIproov" */;
+			buildConfigurationList = 68F70EDF582EED6332CEE27C2CF9172E /* Build configuration list for PBXAggregateTarget "FaceLiveness" */;
 			buildPhases = (
-				828970CE3AC07AF9AF544BF7A79E96F1 /* [CP] Copy XCFrameworks */,
+				D7B810F7F2EF8604023BF1D5F04BAE09 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				1ED0E0B6A0659D88BA3573127D884A3B /* PBXTargetDependency */,
+				1DB93D03A25C488EED2876F596007D90 /* PBXTargetDependency */,
 			);
-			name = FaceLivenessIproov;
-			productName = FaceLivenessIproov;
+			name = FaceLiveness;
 		};
-		56FCAB1F6EB88013552C16D26A5F9D19 /* FaceAuthenticatorIproov */ = {
+		6E686EAC34BC790B1DA2581D95F599E6 /* FaceAuth */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 7BE484BAAFD92028937EE10EE54E2C5E /* Build configuration list for PBXAggregateTarget "FaceAuthenticatorIproov" */;
+			buildConfigurationList = DF65EC3364B64331876383697CDCA0CF /* Build configuration list for PBXAggregateTarget "FaceAuth" */;
 			buildPhases = (
-				49A1689EB2E362DFF5E12222AA438CC6 /* [CP] Copy XCFrameworks */,
+				268F18DB20FAEAF4CEB02A3577CF8C72 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				BC2E007C513BE9861FF628356B5EE834 /* PBXTargetDependency */,
+				82A61B4D61445BC3C5EF259FC090C631 /* PBXTargetDependency */,
 			);
-			name = FaceAuthenticatorIproov;
-			productName = FaceAuthenticatorIproov;
+			name = FaceAuth;
 		};
 		F50B6ACAB8097BFE2624F2E79BB3FD3F /* iProov */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1FAB3280F7E440F61915658249C5091A /* Build configuration list for PBXAggregateTarget "iProov" */;
+			buildConfigurationList = 68D9025441814B6EB994324414DD6249 /* Build configuration list for PBXAggregateTarget "iProov" */;
 			buildPhases = (
-				F320FFA7DAF5833BA1FCE50926591DF3 /* [CP] Copy XCFrameworks */,
+				5DBE20A27859CE7F2A8F50ACD1840825 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				759B67941381D98F810292C0AC8DD59A /* PBXTargetDependency */,
+				369B9EF01F8BF43812831ECE88BD0394 /* PBXTargetDependency */,
 			);
 			name = iProov;
-			productName = iProov;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		035965ABFAD9FBA6E815E0B004556B95 /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AA1612016C3D76DE23F9572848EFA /* FrameCollector.swift */; };
-		09ABDA53A2E320CF35F0902D86F5DC6B /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CD5DB620313C6DCC0C775477121EC8 /* WSEngine.swift */; };
-		0BE29D5470FB28C9D2DD7203F83B936F /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485BAE4437F009C73F3E090E2F871B85 /* FoundationHTTPServerHandler.swift */; };
-		2013A8C9CDA3F909A95D524AF1F47FC4 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89F3ED80EB84D764469F56B412C944 /* Server.swift */; };
-		20FA47326BC9502618D7B98066EF8EF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		48D154951B7148C6DAE40C1910826C70 /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D3FF443EDC05DA61AC4DC4168709D9 /* TCPTransport.swift */; };
-		50D14FA4E285A4A60B4731F05A8A87A4 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD241289E16FAA5C397E8A837DC2F632 /* HTTPHandler.swift */; };
-		5925AD3E4CC35883B3A6C7735B62E712 /* Pods-testFaceAuthDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 530D42A4CE4579A4F3A4EC1C0FD05F46 /* Pods-testFaceAuthDemo-dummy.m */; };
-		6558A532E6BC70F5B72DF65A12EB2281 /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8C6CB8F81EF4F2DE66DD67FDE49AD /* Framer.swift */; };
-		72121C8C41CC5B1C78F2225C22FE3C4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7ACAB92E896236CE4B97D3F1FF247038 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F740255D472E63B5D4851D358E2C265 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EFB6A81EB08000C4F82B20CE139144C /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A916B73821893B8CB3F50430D1FDB5 /* StringHTTPHandler.swift */; };
-		9FE2A00A932B524DA58D72575F8FFD74 /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098E7100395732A8DF2E1EDC59713DE /* FoundationSecurity.swift */; };
-		A1C7951C650B111FCB6A5928A419FE53 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048AAE3E518F68BD4D3E575414CE9A15 /* WSCompression.swift */; };
-		A9C39578F018956E3592897856CF0DF8 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 298758C898448B6A7076692D4D7CA598 /* Starscream-dummy.m */; };
-		B49CC5B0234E8187526231686617BB1D /* Pods-testFaceAuthDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AC1E1A50C6D93A1ED6539A285572E9 /* Pods-testFaceAuthDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC40A4A968FEDBED75C3A2D3AEB19773 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC66C71AE89C7BCA6A057511CFBA6 /* Engine.swift */; };
-		BF256F6D3D03A29770CFE2BFA2042414 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF837A3532FF1A37C71C961A3F8BA1EB /* Compression.swift */; };
-		C4269341BA0EAAADAE2D5A57119C777C /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D1690C5CBB619052A11A5DC9FCBCC /* Data+Extensions.swift */; };
-		C9CA67A0C41BFF8F93A5EA1FE2FD5AD8 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE691D66E0C7C995D29BDFD29CEEF52D /* WebSocket.swift */; };
-		CA5092268833C33D228C4DE013CE9946 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DFE43E679BB0C1E898FB05A820DFF /* Security.swift */; };
-		CC735F351593889F7EE665F6EF5E3AE8 /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921C3B63543766A7DF676ACB33F1908 /* FoundationTransport.swift */; };
-		E8879998FE85DAA82F86695F1DBDB98A /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD937C51464BD8DE9A8D15383F60A8A /* WebSocketServer.swift */; };
-		F1800B24652583A8E51804624194C2FA /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BCBD27B06E0AC5E3C391AA82AE28EF /* FoundationHTTPHandler.swift */; };
-		F44B640808C1ACF86A2C96BC8A09FA55 /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72B5B8FDDD84CA5F2732F386D83C63 /* NativeEngine.swift */; };
-		F90BD159BF71F1760E411E91FF1F39C9 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105A237732F33171848FE595F9496F7 /* Transport.swift */; };
+		2C5A549A74E40E5272D70ED4BE7E4513 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF80554717E66DA926458B72D26F1EB /* Transport.swift */; };
+		358B48FB39D33ACF4F707F7BE6645F29 /* Pods-testFaceAuthDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 530D42A4CE4579A4F3A4EC1C0FD05F46 /* Pods-testFaceAuthDemo-dummy.m */; };
+		3A04C762ABCC6A1C2D505A0A4636A81A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3FBF55780FFD1C41A8A0AE3198582668 /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED77E395B56F7BC0627F6E245BD3886 /* WSEngine.swift */; };
+		40CF4A39E7F3A9C03D2CAD2332EE76C7 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF57087EEC78FA363D019FE7061B7C /* Engine.swift */; };
+		6970B5AA65A17FC065D041BF6737A562 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C059EE86FBB9EBE91FC3F57CD8BEE2FA /* HTTPHandler.swift */; };
+		74455C77C99A2E81D9D0A4E2E5C9DF39 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5966686A50006F64E4DEE44D4B91A1E /* WSCompression.swift */; };
+		7CB9F4B58E2EA7DD4EE2A1FA08AEA2C9 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0767F0F23DD43819E74FEDF19EACAF /* Security.swift */; };
+		8B9A4A406BC2D23E35F171A2D41BEE85 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62B4A37167094A6ACCA29FC81BB856 /* Server.swift */; };
+		8D9E54B27153C003B6D2DC982B6A358F /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1C26E9E56C264F293B291382F867C /* WebSocket.swift */; };
+		8F5A458DFD93F1AC2671CF63BFDC24D0 /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576176AC79855D81EA2DBF0F120C236 /* FoundationTransport.swift */; };
+		958F8F97F7E99B240A72C58A0B3FE386 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8F47326784355E144416ECC0208FF /* Data+Extensions.swift */; };
+		9D09B5EC579C1CA792B78B88A2227DB9 /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F8C2BDA6E4F4D19DD40BFF0E4DE93D /* TCPTransport.swift */; };
+		9FC796526AC94B24860131F53BEC9BE0 /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B18D784EE852F268587404779C3B13 /* StringHTTPHandler.swift */; };
+		B43D503884782BF44D268114CB3913F1 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E93A70048DEB03F80072DA0B9987738 /* Starscream-dummy.m */; };
+		BADC6C615860F502DB3C0883936566E5 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B473E59D00DEFDDC8515EEC3E2BD2A05 /* Compression.swift */; };
+		BB11CD572D7EF85E052036ACA367C588 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4C953ACFB12593B9E37687A5C4414 /* FoundationHTTPHandler.swift */; };
+		BE4290ACBA73D444D9E6C01847B4A469 /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB136940B122E22B0B75323CFBD67AE /* WebSocketServer.swift */; };
+		BED4794148972CBE13BBF773F7037B1D /* Pods-testFaceAuthDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AC1E1A50C6D93A1ED6539A285572E9 /* Pods-testFaceAuthDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEEBC8F95A388CB54D31FB6B1D1BEEC9 /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFDA378AFB1E5976161A533576E5561 /* FrameCollector.swift */; };
+		C3C18CBD26F7D12AA444FB40AD6CF1FB /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E31E03EA2A2F4E4A623A719F4D03E /* Framer.swift */; };
+		C418191A33321EE3C929F4EA040292DD /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5568B62DF7AD5AD53A3C83B1D859F08 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFC60CCA9A9578F6E3FD5644091A6D74 /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201762A5DFB3471D31657573D3163FCC /* FoundationSecurity.swift */; };
+		DA9CC214C2474869D68BB9907FD9E0A3 /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA245DA750E72757E1DC69202AA2744E /* FoundationHTTPServerHandler.swift */; };
+		EE5EA9C6DC765890317E8A39C6FB55C4 /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470CE31FC3827B27DA797D91F4346DA /* NativeEngine.swift */; };
+		F6B307A343B9E3B2BE591158AC4707B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		44C9D8F6337254FA9EF2F679A1355178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 56FCAB1F6EB88013552C16D26A5F9D19;
-			remoteInfo = FaceAuthenticatorIproov;
-		};
-		4A920BD97A4382EFAAF947FB4B46735D /* PBXContainerItemProxy */ = {
+		8591E5BB312AFB25E5A7E7B7909A1EE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
 			remoteInfo = Starscream;
 		};
-		8A696FFA89D41639A3EBACF43B0DD944 /* PBXContainerItemProxy */ = {
+		8D783FD3B9B3773D13623450B7669964 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 504229C9ED7C32100CD5F1A0816FA453;
-			remoteInfo = FaceLivenessIproov;
+			remoteGlobalIDString = 2EEE5F59F3438A0625957CB5FE79E09F;
+			remoteInfo = FaceLiveness;
 		};
-		8D8D36037CA2B38BEFE91856EBC3977B /* PBXContainerItemProxy */ = {
+		95127D592004B09A4E9D88CADFDFE128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50B6ACAB8097BFE2624F2E79BB3FD3F;
+			remoteInfo = iProov;
+		};
+		B571FE50626EB1D85FBF7B178FDF5A06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
 			remoteInfo = Starscream;
 		};
-		AF771E45EB457AE5789D1D4ED445619C /* PBXContainerItemProxy */ = {
+		CB08C0C8609345CF592B8303D83774E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F50B6ACAB8097BFE2624F2E79BB3FD3F;
 			remoteInfo = iProov;
 		};
-		BB7AB9A176FB71560FFED7611A2D67C7 /* PBXContainerItemProxy */ = {
+		EA760E3B54776FDD5E0D736EFE8757E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 504229C9ED7C32100CD5F1A0816FA453;
-			remoteInfo = FaceLivenessIproov;
+			remoteGlobalIDString = 6E686EAC34BC790B1DA2581D95F599E6;
+			remoteInfo = FaceAuth;
 		};
-		F260D2B41FC9884A904538AF777C6573 /* PBXContainerItemProxy */ = {
+		F27726343DF6E35AA6BF27E8F9ADF6E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F50B6ACAB8097BFE2624F2E79BB3FD3F;
-			remoteInfo = iProov;
+			remoteGlobalIDString = 2EEE5F59F3438A0625957CB5FE79E09F;
+			remoteInfo = FaceLiveness;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		048AAE3E518F68BD4D3E575414CE9A15 /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
-		060D2F2F5737D5D940F657EAE6B3D68B /* FaceLivenessIproov.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FaceLivenessIproov.xcframework; path = "face-liveness-iproov/FaceLivenessIproov.xcframework"; sourceTree = "<group>"; };
-		0DD937C51464BD8DE9A8D15383F60A8A /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
-		1098E7100395732A8DF2E1EDC59713DE /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
-		128D1690C5CBB619052A11A5DC9FCBCC /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
-		194A64D95A4AADC927FD0D221BBBA955 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
-		1E89F3ED80EB84D764469F56B412C944 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
-		1F72B5B8FDDD84CA5F2732F386D83C63 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
-		1F740255D472E63B5D4851D358E2C265 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
-		298758C898448B6A7076692D4D7CA598 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
-		2A8AA1612016C3D76DE23F9572848EFA /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
-		42CD5DB620313C6DCC0C775477121EC8 /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
+		0C402F9D548BB93A148A539A24794DCF /* FaceLiveness-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FaceLiveness-xcframeworks.sh"; sourceTree = "<group>"; };
+		1172FF73406E9B31702180292768A719 /* FaceLiveness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceLiveness.release.xcconfig; sourceTree = "<group>"; };
+		11B4C953ACFB12593B9E37687A5C4414 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		1C8C77B24BD7CADB58BE1B66CD713A29 /* FaceAuth-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FaceAuth-xcframeworks.sh"; sourceTree = "<group>"; };
+		201762A5DFB3471D31657573D3163FCC /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
+		27B8F47326784355E144416ECC0208FF /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
+		2ED77E395B56F7BC0627F6E245BD3886 /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
 		42FBFE58F77ADD39BF1817C5B49FC497 /* Pods-testFaceAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testFaceAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
-		485BAE4437F009C73F3E090E2F871B85 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
 		530D42A4CE4579A4F3A4EC1C0FD05F46 /* Pods-testFaceAuthDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testFaceAuthDemo-dummy.m"; sourceTree = "<group>"; };
-		5D5679132460258C4FF7E44E068CF46A /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		55B18D784EE852F268587404779C3B13 /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
+		5C62B4A37167094A6ACCA29FC81BB856 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
 		5FA27248599E7C083624FC680A26B298 /* Pods-testFaceAuthDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testFaceAuthDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BFDA378AFB1E5976161A533576E5561 /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		6F91F702A267CF8A87D5CDA42B6D110A /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AB2A58925593D4701C7ECD4099BF277 /* FaceAuthenticatorIproov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceAuthenticatorIproov.debug.xcconfig; sourceTree = "<group>"; };
-		7AFC9DF3FDE5CA0AA11497DBED4D3E99 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
-		7F1DFE43E679BB0C1E898FB05A820DFF /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
-		801DC66C71AE89C7BCA6A057511CFBA6 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
-		8778B145C7C252C568BB6E7B4FB29767 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
-		891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1F9F702C74DD65DF9F06885CCFC51F /* iProov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iProov.release.xcconfig; sourceTree = "<group>"; };
+		74514B91810A4764481BB8D5106EE56D /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+		7A350C8A47AFDBA50CDF6FEF4DEC70B6 /* FaceAuthenticator.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FaceAuthenticator.xcframework; path = FaceAuth/FaceAuthenticator.xcframework; sourceTree = "<group>"; };
+		7AD23C9E671F707D6DFF8EB8F0933C82 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		7CEF57087EEC78FA363D019FE7061B7C /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
+		7E93A70048DEB03F80072DA0B9987738 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		80A4F231609F90A6A8001898DDF4630B /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF1FC14F5AEC12994D1D03141CF3624 /* FaceAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceAuth.release.xcconfig; sourceTree = "<group>"; };
 		8EF22A60920BF6EDE6DC36D81B1CDE13 /* Pods-testFaceAuthDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testFaceAuthDemo-frameworks.sh"; sourceTree = "<group>"; };
-		8F8B21BD96E9CA495E34F75973056A52 /* FaceLivenessIproov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceLivenessIproov.debug.xcconfig; sourceTree = "<group>"; };
 		9320ABEF5EC285E92E232F348C0A6DE7 /* Pods-testFaceAuthDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testFaceAuthDemo.modulemap"; sourceTree = "<group>"; };
 		93797288FA67751A39258B8252F45D85 /* Pods-testFaceAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testFaceAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		94BCBD27B06E0AC5E3C391AA82AE28EF /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
-		98A916B73821893B8CB3F50430D1FDB5 /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
-		9921C3B63543766A7DF676ACB33F1908 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
-		99E8C6CB8F81EF4F2DE66DD67FDE49AD /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
-		9A1E2C478836D53708465661C4AAA126 /* iProov.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = iProov.xcframework; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0767F0F23DD43819E74FEDF19EACAF /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
 		9EE436C06FBC23DE813B340C2B430955 /* Pods-testFaceAuthDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-testFaceAuthDemo"; path = Pods_testFaceAuthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA5405BD3D156181F497E3D6BA24DC44 /* FaceAuthenticatorIproov-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FaceAuthenticatorIproov-xcframeworks.sh"; sourceTree = "<group>"; };
-		AFAB4AC55B10493451BC0406B1D8A82D /* iProov-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "iProov-xcframeworks.sh"; sourceTree = "<group>"; };
-		B8C461E5F8BD535339A70ED181042073 /* iProov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iProov.debug.xcconfig; sourceTree = "<group>"; };
-		C342AA0EEF9746BF26C0F03CBADD5C32 /* FaceAuthenticatorIproov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceAuthenticatorIproov.release.xcconfig; sourceTree = "<group>"; };
-		CA82A8925679B26990F882EC7503C766 /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
-		CDAC75A83B6F31C4D2EE5715FA9C3B0D /* FaceLivenessIproov-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FaceLivenessIproov-xcframeworks.sh"; sourceTree = "<group>"; };
+		9FB136940B122E22B0B75323CFBD67AE /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
+		A470CE31FC3827B27DA797D91F4346DA /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
+		A4C98FBBE20DF9390DCF636DC203C234 /* FaceAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceAuth.debug.xcconfig; sourceTree = "<group>"; };
+		A82816E008873C611C8243439DF16424 /* FaceLiveness.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FaceLiveness.xcframework; path = "face-liveness/FaceLiveness.xcframework"; sourceTree = "<group>"; };
+		A9E25D6E211653C67D684FDF0A8663A6 /* iProov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iProov.debug.xcconfig; sourceTree = "<group>"; };
+		B17E753F314EA9EFFA2151A53D1E1132 /* iProov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iProov.release.xcconfig; sourceTree = "<group>"; };
+		B473E59D00DEFDDC8515EEC3E2BD2A05 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
+		C059EE86FBB9EBE91FC3F57CD8BEE2FA /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		C7BE11B06B10CF02EDD4A3647559C449 /* iProov-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "iProov-xcframeworks.sh"; sourceTree = "<group>"; };
+		CA245DA750E72757E1DC69202AA2744E /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
+		D5568B62DF7AD5AD53A3C83B1D859F08 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		D5F8C2BDA6E4F4D19DD40BFF0E4DE93D /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
+		DBB1C26E9E56C264F293B291382F867C /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
 		DE491702D80DE7295C4AB13C4B6D3406 /* Pods-testFaceAuthDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testFaceAuthDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		DE691D66E0C7C995D29BDFD29CEEF52D /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
-		DF837A3532FF1A37C71C961A3F8BA1EB /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
 		E09CCECC12DD6418BF49BCEE900BEABB /* Pods-testFaceAuthDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testFaceAuthDemo-Info.plist"; sourceTree = "<group>"; };
-		E159EE88D3618F7B1E336B1A74D2665A /* FaceLivenessIproov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceLivenessIproov.release.xcconfig; sourceTree = "<group>"; };
+		E576176AC79855D81EA2DBF0F120C236 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
+		E85870BE45B6A500B78CDF8379D89824 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
+		EDF80554717E66DA926458B72D26F1EB /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
 		F0AC1E1A50C6D93A1ED6539A285572E9 /* Pods-testFaceAuthDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testFaceAuthDemo-umbrella.h"; sourceTree = "<group>"; };
-		F105A237732F33171848FE595F9496F7 /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
-		F8769E14D3EEE47C285B8C4C604FD5AB /* FaceAuthenticatorIproov.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FaceAuthenticatorIproov.xcframework; path = "face-authenticator-iproov/FaceAuthenticatorIproov.xcframework"; sourceTree = "<group>"; };
-		F8D3FF443EDC05DA61AC4DC4168709D9 /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
-		FD241289E16FAA5C397E8A837DC2F632 /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		F5966686A50006F64E4DEE44D4B91A1E /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
+		F77E31E03EA2A2F4E4A623A719F4D03E /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
+		F9FC105085B8383D09C859062B9F1145 /* iProov.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = iProov.xcframework; sourceTree = "<group>"; };
+		FA35B6A111694AF5939490C92F37BF56 /* FaceLiveness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceLiveness.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ABFD6F7B307039A6D1F2AB8E25A6A10A /* Frameworks */ = {
+		1CE98DE4A154865C5B5953CAA13AE264 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72121C8C41CC5B1C78F2225C22FE3C4B /* Foundation.framework in Frameworks */,
+				3A04C762ABCC6A1C2D505A0A4636A81A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBF47EF9A41FD6EEDF14224F798D1850 /* Frameworks */ = {
+		355DBBDB35100778557568D949FF875B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FA47326BC9502618D7B98066EF8EF2 /* Foundation.framework in Frameworks */,
+				F6B307A343B9E3B2BE591158AC4707B3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		055AEBDB6DBF41E5D886FE0990C1548B /* Support Files */ = {
+		1FAFFB0BC4563985B09E84957C643C05 /* iProov */ = {
 			isa = PBXGroup;
 			children = (
-				AFAB4AC55B10493451BC0406B1D8A82D /* iProov-xcframeworks.sh */,
-				B8C461E5F8BD535339A70ED181042073 /* iProov.debug.xcconfig */,
-				8E1F9F702C74DD65DF9F06885CCFC51F /* iProov.release.xcconfig */,
+				B924A4490595F7357F110A1A9AF9C56E /* Frameworks */,
+				8E8AF968FCD13F774E9139AE7BE06D7C /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/iProov";
+			name = iProov;
+			path = iProov;
 			sourceTree = "<group>";
 		};
 		26758999F10810A80A1D3A94CC3C4689 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				9EE436C06FBC23DE813B340C2B430955 /* Pods-testFaceAuthDemo */,
-				891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3442866FBBF1670643A7290A18704513 /* Support Files */ = {
+		2F066B4EDE1060B8F9FFDF75B7CE50A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				194A64D95A4AADC927FD0D221BBBA955 /* Starscream.modulemap */,
-				298758C898448B6A7076692D4D7CA598 /* Starscream-dummy.m */,
-				5D5679132460258C4FF7E44E068CF46A /* Starscream-Info.plist */,
-				7AFC9DF3FDE5CA0AA11497DBED4D3E99 /* Starscream-prefix.pch */,
-				1F740255D472E63B5D4851D358E2C265 /* Starscream-umbrella.h */,
-				CA82A8925679B26990F882EC7503C766 /* Starscream.debug.xcconfig */,
-				8778B145C7C252C568BB6E7B4FB29767 /* Starscream.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Starscream";
-			sourceTree = "<group>";
-		};
-		35D6792A42B5A58F29E356BE881C280F /* FaceLivenessIproov */ = {
-			isa = PBXGroup;
-			children = (
-				E84D6272F1322D8E65EB8858D4E0A71F /* Frameworks */,
-				397E0BCFE5948B97F5CB340F0CB5E3EC /* Support Files */,
-			);
-			path = FaceLivenessIproov;
-			sourceTree = "<group>";
-		};
-		363DF2F8C4F6966904D98D1D11F0206B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F8769E14D3EEE47C285B8C4C604FD5AB /* FaceAuthenticatorIproov.xcframework */,
+				7A350C8A47AFDBA50CDF6FEF4DEC70B6 /* FaceAuthenticator.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		397E0BCFE5948B97F5CB340F0CB5E3EC /* Support Files */ = {
+		32C0FD8BE721A9FD1F709A4C04BC14CF /* FaceAuth */ = {
 			isa = PBXGroup;
 			children = (
-				CDAC75A83B6F31C4D2EE5715FA9C3B0D /* FaceLivenessIproov-xcframeworks.sh */,
-				8F8B21BD96E9CA495E34F75973056A52 /* FaceLivenessIproov.debug.xcconfig */,
-				E159EE88D3618F7B1E336B1A74D2665A /* FaceLivenessIproov.release.xcconfig */,
+				2F066B4EDE1060B8F9FFDF75B7CE50A4 /* Frameworks */,
+				78DD22A1302F7065CB59B1A27D410B1E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FaceLivenessIproov";
-			sourceTree = "<group>";
-		};
-		3B2DC5B02781FA506A04E6B06CC91A25 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA5405BD3D156181F497E3D6BA24DC44 /* FaceAuthenticatorIproov-xcframeworks.sh */,
-				7AB2A58925593D4701C7ECD4099BF277 /* FaceAuthenticatorIproov.debug.xcconfig */,
-				C342AA0EEF9746BF26C0F03CBADD5C32 /* FaceAuthenticatorIproov.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FaceAuthenticatorIproov";
-			sourceTree = "<group>";
-		};
-		4934E8B7C2BFE46EB01A97753705642A /* Starscream */ = {
-			isa = PBXGroup;
-			children = (
-				DF837A3532FF1A37C71C961A3F8BA1EB /* Compression.swift */,
-				128D1690C5CBB619052A11A5DC9FCBCC /* Data+Extensions.swift */,
-				801DC66C71AE89C7BCA6A057511CFBA6 /* Engine.swift */,
-				94BCBD27B06E0AC5E3C391AA82AE28EF /* FoundationHTTPHandler.swift */,
-				485BAE4437F009C73F3E090E2F871B85 /* FoundationHTTPServerHandler.swift */,
-				1098E7100395732A8DF2E1EDC59713DE /* FoundationSecurity.swift */,
-				9921C3B63543766A7DF676ACB33F1908 /* FoundationTransport.swift */,
-				2A8AA1612016C3D76DE23F9572848EFA /* FrameCollector.swift */,
-				99E8C6CB8F81EF4F2DE66DD67FDE49AD /* Framer.swift */,
-				FD241289E16FAA5C397E8A837DC2F632 /* HTTPHandler.swift */,
-				1F72B5B8FDDD84CA5F2732F386D83C63 /* NativeEngine.swift */,
-				7F1DFE43E679BB0C1E898FB05A820DFF /* Security.swift */,
-				1E89F3ED80EB84D764469F56B412C944 /* Server.swift */,
-				98A916B73821893B8CB3F50430D1FDB5 /* StringHTTPHandler.swift */,
-				F8D3FF443EDC05DA61AC4DC4168709D9 /* TCPTransport.swift */,
-				F105A237732F33171848FE595F9496F7 /* Transport.swift */,
-				DE691D66E0C7C995D29BDFD29CEEF52D /* WebSocket.swift */,
-				0DD937C51464BD8DE9A8D15383F60A8A /* WebSocketServer.swift */,
-				048AAE3E518F68BD4D3E575414CE9A15 /* WSCompression.swift */,
-				42CD5DB620313C6DCC0C775477121EC8 /* WSEngine.swift */,
-				3442866FBBF1670643A7290A18704513 /* Support Files */,
-			);
-			path = Starscream;
+			name = FaceAuth;
+			path = FaceAuth;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -311,21 +243,51 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		85846E4A32534AEB7605E4C3F9E5C76A /* FaceAuthenticatorIproov */ = {
+		57BFD9CC2BFD75DB567630B76B9C8952 /* FaceLiveness */ = {
 			isa = PBXGroup;
 			children = (
-				363DF2F8C4F6966904D98D1D11F0206B /* Frameworks */,
-				3B2DC5B02781FA506A04E6B06CC91A25 /* Support Files */,
+				C5D90763303FA4EBF1E05082CC8BE0E8 /* Frameworks */,
+				CAAF7A6108D06CDE2D07DF344CA9E027 /* Support Files */,
 			);
-			path = FaceAuthenticatorIproov;
+			name = FaceLiveness;
+			path = FaceLiveness;
 			sourceTree = "<group>";
 		};
-		94BD95AB780500134CF56F40BAAA9D80 /* Frameworks */ = {
+		6CAEBCC5632D8C4F3EA1F8D6B984AA32 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A1E2C478836D53708465661C4AAA126 /* iProov.xcframework */,
+				7AD23C9E671F707D6DFF8EB8F0933C82 /* Starscream.modulemap */,
+				7E93A70048DEB03F80072DA0B9987738 /* Starscream-dummy.m */,
+				80A4F231609F90A6A8001898DDF4630B /* Starscream-Info.plist */,
+				6F91F702A267CF8A87D5CDA42B6D110A /* Starscream-prefix.pch */,
+				D5568B62DF7AD5AD53A3C83B1D859F08 /* Starscream-umbrella.h */,
+				74514B91810A4764481BB8D5106EE56D /* Starscream.debug.xcconfig */,
+				E85870BE45B6A500B78CDF8379D89824 /* Starscream.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		78DD22A1302F7065CB59B1A27D410B1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C77B24BD7CADB58BE1B66CD713A29 /* FaceAuth-xcframeworks.sh */,
+				A4C98FBBE20DF9390DCF636DC203C234 /* FaceAuth.debug.xcconfig */,
+				8AF1FC14F5AEC12994D1D03141CF3624 /* FaceAuth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FaceAuth";
+			sourceTree = "<group>";
+		};
+		8E8AF968FCD13F774E9139AE7BE06D7C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7BE11B06B10CF02EDD4A3647559C449 /* iProov-xcframeworks.sh */,
+				A9E25D6E211653C67D684FDF0A8663A6 /* iProov.debug.xcconfig */,
+				B17E753F314EA9EFFA2151A53D1E1132 /* iProov.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iProov";
 			sourceTree = "<group>";
 		};
 		A4F154B8BFEF360931F4671D65692365 /* Targets Support Files */ = {
@@ -336,24 +298,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B56B81315EE5571D3E74E2AA33A7E55D /* Pods */ = {
+		B924A4490595F7357F110A1A9AF9C56E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				85846E4A32534AEB7605E4C3F9E5C76A /* FaceAuthenticatorIproov */,
-				35D6792A42B5A58F29E356BE881C280F /* FaceLivenessIproov */,
-				C3EF47E739069613FC6E2243287A5947 /* iProov */,
-				4934E8B7C2BFE46EB01A97753705642A /* Starscream */,
+				F9FC105085B8383D09C859062B9F1145 /* iProov.xcframework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C3EF47E739069613FC6E2243287A5947 /* iProov */ = {
+		C5D90763303FA4EBF1E05082CC8BE0E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94BD95AB780500134CF56F40BAAA9D80 /* Frameworks */,
-				055AEBDB6DBF41E5D886FE0990C1548B /* Support Files */,
+				A82816E008873C611C8243439DF16424 /* FaceLiveness.xcframework */,
 			);
-			path = iProov;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAAF7A6108D06CDE2D07DF344CA9E027 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C402F9D548BB93A148A539A24794DCF /* FaceLiveness-xcframeworks.sh */,
+				FA35B6A111694AF5939490C92F37BF56 /* FaceLiveness.debug.xcconfig */,
+				1172FF73406E9B31702180292768A719 /* FaceLiveness.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FaceLiveness";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -361,7 +330,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				B56B81315EE5571D3E74E2AA33A7E55D /* Pods */,
+				E69901AFB1A62507BAD27381A25D9EE7 /* Pods */,
 				26758999F10810A80A1D3A94CC3C4689 /* Products */,
 				A4F154B8BFEF360931F4671D65692365 /* Targets Support Files */,
 			);
@@ -375,12 +344,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E84D6272F1322D8E65EB8858D4E0A71F /* Frameworks */ = {
+		E69901AFB1A62507BAD27381A25D9EE7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				060D2F2F5737D5D940F657EAE6B3D68B /* FaceLivenessIproov.xcframework */,
+				32C0FD8BE721A9FD1F709A4C04BC14CF /* FaceAuth */,
+				57BFD9CC2BFD75DB567630B76B9C8952 /* FaceLiveness */,
+				1FAFFB0BC4563985B09E84957C643C05 /* iProov */,
+				F99E7671F5921D1B47C135C5DF4D2037 /* Starscream */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F304AA23D9F738A5B6B2E67530C904CC /* Pods-testFaceAuthDemo */ = {
@@ -400,22 +372,51 @@
 			path = "Target Support Files/Pods-testFaceAuthDemo";
 			sourceTree = "<group>";
 		};
+		F99E7671F5921D1B47C135C5DF4D2037 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				B473E59D00DEFDDC8515EEC3E2BD2A05 /* Compression.swift */,
+				27B8F47326784355E144416ECC0208FF /* Data+Extensions.swift */,
+				7CEF57087EEC78FA363D019FE7061B7C /* Engine.swift */,
+				11B4C953ACFB12593B9E37687A5C4414 /* FoundationHTTPHandler.swift */,
+				CA245DA750E72757E1DC69202AA2744E /* FoundationHTTPServerHandler.swift */,
+				201762A5DFB3471D31657573D3163FCC /* FoundationSecurity.swift */,
+				E576176AC79855D81EA2DBF0F120C236 /* FoundationTransport.swift */,
+				6BFDA378AFB1E5976161A533576E5561 /* FrameCollector.swift */,
+				F77E31E03EA2A2F4E4A623A719F4D03E /* Framer.swift */,
+				C059EE86FBB9EBE91FC3F57CD8BEE2FA /* HTTPHandler.swift */,
+				A470CE31FC3827B27DA797D91F4346DA /* NativeEngine.swift */,
+				9E0767F0F23DD43819E74FEDF19EACAF /* Security.swift */,
+				5C62B4A37167094A6ACCA29FC81BB856 /* Server.swift */,
+				55B18D784EE852F268587404779C3B13 /* StringHTTPHandler.swift */,
+				D5F8C2BDA6E4F4D19DD40BFF0E4DE93D /* TCPTransport.swift */,
+				EDF80554717E66DA926458B72D26F1EB /* Transport.swift */,
+				DBB1C26E9E56C264F293B291382F867C /* WebSocket.swift */,
+				9FB136940B122E22B0B75323CFBD67AE /* WebSocketServer.swift */,
+				F5966686A50006F64E4DEE44D4B91A1E /* WSCompression.swift */,
+				2ED77E395B56F7BC0627F6E245BD3886 /* WSEngine.swift */,
+				6CAEBCC5632D8C4F3EA1F8D6B984AA32 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3917AC1E21650B6CD685BF2818420F94 /* Headers */ = {
+		4A5E98EABD78871CFE36C95EDE34FE20 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49CC5B0234E8187526231686617BB1D /* Pods-testFaceAuthDemo-umbrella.h in Headers */,
+				C418191A33321EE3C929F4EA040292DD /* Starscream-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		977587B08147CD4E284495A415409069 /* Headers */ = {
+		C3D110E16421564CAE071FB2CAD14E98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ACAB92E896236CE4B97D3F1FF247038 /* Starscream-umbrella.h in Headers */,
+				BED4794148972CBE13BBF773F7037B1D /* Pods-testFaceAuthDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,12 +425,12 @@
 /* Begin PBXNativeTarget section */
 		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C09D5B93BA59542158E2F5D99CB6990 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildConfigurationList = C103BFC258703A2417BF398064E73C40 /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				977587B08147CD4E284495A415409069 /* Headers */,
-				825036E58021B0E0F36A231D0BD66F10 /* Sources */,
-				DBF47EF9A41FD6EEDF14224F798D1850 /* Frameworks */,
-				01D37C945083A75A623B2A29A7C9B3F9 /* Resources */,
+				4A5E98EABD78871CFE36C95EDE34FE20 /* Headers */,
+				8DB912290D5E0EC3185546A2A1B2BCBD /* Sources */,
+				355DBBDB35100778557568D949FF875B /* Frameworks */,
+				CDC55AC8E58162617F5FF7E34AEA6F18 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -437,25 +438,25 @@
 			);
 			name = Starscream;
 			productName = Starscream;
-			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
 			productType = "com.apple.product-type.framework";
 		};
 		B0CE016268D8330241027737DADD748D /* Pods-testFaceAuthDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17C95161A2A9DCD7AC617DE2917199B1 /* Build configuration list for PBXNativeTarget "Pods-testFaceAuthDemo" */;
+			buildConfigurationList = EF98FF15F3ED71D9DDCAF204DB50BB72 /* Build configuration list for PBXNativeTarget "Pods-testFaceAuthDemo" */;
 			buildPhases = (
-				3917AC1E21650B6CD685BF2818420F94 /* Headers */,
-				BEC2732303EB2923E0B7FEACAD3C05A5 /* Sources */,
-				ABFD6F7B307039A6D1F2AB8E25A6A10A /* Frameworks */,
-				EB0BE190BBE1A3488CB5F7D7898E173D /* Resources */,
+				C3D110E16421564CAE071FB2CAD14E98 /* Headers */,
+				C97E431325EA34D2D1E163F7D1DF4420 /* Sources */,
+				1CE98DE4A154865C5B5953CAA13AE264 /* Frameworks */,
+				B3FB3224D8B75A148E2205B2C4AC0CE6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7BFC358DA36477538E1B5FA91E965F19 /* PBXTargetDependency */,
-				A7F9DADD133B6C835D37D6EFDB2B4356 /* PBXTargetDependency */,
-				67AB3362508C38EB89A3C4EEFC971022 /* PBXTargetDependency */,
-				555BB5F53EC6284557409C80883AF2A7 /* PBXTargetDependency */,
+				A1BD9D2FB321662418DBEE0A99B57CD0 /* PBXTargetDependency */,
+				A37B3C9C2C2DDEF6DB80F8881D0F5CF0 /* PBXTargetDependency */,
+				9EEDD9DC4D14B04D601339C585B85C21 /* PBXTargetDependency */,
+				16316A836CE500C27C16A27F883C4C1C /* PBXTargetDependency */,
 			);
 			name = "Pods-testFaceAuthDemo";
 			productName = Pods_testFaceAuthDemo;
@@ -484,8 +485,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56FCAB1F6EB88013552C16D26A5F9D19 /* FaceAuthenticatorIproov */,
-				504229C9ED7C32100CD5F1A0816FA453 /* FaceLivenessIproov */,
+				6E686EAC34BC790B1DA2581D95F599E6 /* FaceAuth */,
+				2EEE5F59F3438A0625957CB5FE79E09F /* FaceLiveness */,
 				F50B6ACAB8097BFE2624F2E79BB3FD3F /* iProov */,
 				B0CE016268D8330241027737DADD748D /* Pods-testFaceAuthDemo */,
 				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
@@ -494,14 +495,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01D37C945083A75A623B2A29A7C9B3F9 /* Resources */ = {
+		B3FB3224D8B75A148E2205B2C4AC0CE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB0BE190BBE1A3488CB5F7D7898E173D /* Resources */ = {
+		CDC55AC8E58162617F5FF7E34AEA6F18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -511,41 +512,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		49A1689EB2E362DFF5E12222AA438CC6 /* [CP] Copy XCFrameworks */ = {
+		268F18DB20FAEAF4CEB02A3577CF8C72 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/FaceAuthenticatorIproov/FaceAuthenticatorIproov-xcframeworks-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/FaceAuth/FaceAuth-xcframeworks-input-files.xcfilelist",
 			);
 			name = "[CP] Copy XCFrameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/FaceAuthenticatorIproov/FaceAuthenticatorIproov-xcframeworks-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/FaceAuth/FaceAuth-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/FaceAuthenticatorIproov/FaceAuthenticatorIproov-xcframeworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FaceAuth/FaceAuth-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		828970CE3AC07AF9AF544BF7A79E96F1 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/FaceLivenessIproov/FaceLivenessIproov-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/FaceLivenessIproov/FaceLivenessIproov-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/FaceLivenessIproov/FaceLivenessIproov-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F320FFA7DAF5833BA1FCE50926591DF3 /* [CP] Copy XCFrameworks */ = {
+		5DBE20A27859CE7F2A8F50ACD1840825 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,96 +546,165 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/iProov/iProov-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D7B810F7F2EF8604023BF1D5F04BAE09 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FaceLiveness/FaceLiveness-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FaceLiveness/FaceLiveness-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FaceLiveness/FaceLiveness-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		825036E58021B0E0F36A231D0BD66F10 /* Sources */ = {
+		8DB912290D5E0EC3185546A2A1B2BCBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF256F6D3D03A29770CFE2BFA2042414 /* Compression.swift in Sources */,
-				C4269341BA0EAAADAE2D5A57119C777C /* Data+Extensions.swift in Sources */,
-				BC40A4A968FEDBED75C3A2D3AEB19773 /* Engine.swift in Sources */,
-				F1800B24652583A8E51804624194C2FA /* FoundationHTTPHandler.swift in Sources */,
-				0BE29D5470FB28C9D2DD7203F83B936F /* FoundationHTTPServerHandler.swift in Sources */,
-				9FE2A00A932B524DA58D72575F8FFD74 /* FoundationSecurity.swift in Sources */,
-				CC735F351593889F7EE665F6EF5E3AE8 /* FoundationTransport.swift in Sources */,
-				035965ABFAD9FBA6E815E0B004556B95 /* FrameCollector.swift in Sources */,
-				6558A532E6BC70F5B72DF65A12EB2281 /* Framer.swift in Sources */,
-				50D14FA4E285A4A60B4731F05A8A87A4 /* HTTPHandler.swift in Sources */,
-				F44B640808C1ACF86A2C96BC8A09FA55 /* NativeEngine.swift in Sources */,
-				CA5092268833C33D228C4DE013CE9946 /* Security.swift in Sources */,
-				2013A8C9CDA3F909A95D524AF1F47FC4 /* Server.swift in Sources */,
-				A9C39578F018956E3592897856CF0DF8 /* Starscream-dummy.m in Sources */,
-				7EFB6A81EB08000C4F82B20CE139144C /* StringHTTPHandler.swift in Sources */,
-				48D154951B7148C6DAE40C1910826C70 /* TCPTransport.swift in Sources */,
-				F90BD159BF71F1760E411E91FF1F39C9 /* Transport.swift in Sources */,
-				C9CA67A0C41BFF8F93A5EA1FE2FD5AD8 /* WebSocket.swift in Sources */,
-				E8879998FE85DAA82F86695F1DBDB98A /* WebSocketServer.swift in Sources */,
-				A1C7951C650B111FCB6A5928A419FE53 /* WSCompression.swift in Sources */,
-				09ABDA53A2E320CF35F0902D86F5DC6B /* WSEngine.swift in Sources */,
+				BADC6C615860F502DB3C0883936566E5 /* Compression.swift in Sources */,
+				958F8F97F7E99B240A72C58A0B3FE386 /* Data+Extensions.swift in Sources */,
+				40CF4A39E7F3A9C03D2CAD2332EE76C7 /* Engine.swift in Sources */,
+				BB11CD572D7EF85E052036ACA367C588 /* FoundationHTTPHandler.swift in Sources */,
+				DA9CC214C2474869D68BB9907FD9E0A3 /* FoundationHTTPServerHandler.swift in Sources */,
+				CFC60CCA9A9578F6E3FD5644091A6D74 /* FoundationSecurity.swift in Sources */,
+				8F5A458DFD93F1AC2671CF63BFDC24D0 /* FoundationTransport.swift in Sources */,
+				BEEBC8F95A388CB54D31FB6B1D1BEEC9 /* FrameCollector.swift in Sources */,
+				C3C18CBD26F7D12AA444FB40AD6CF1FB /* Framer.swift in Sources */,
+				6970B5AA65A17FC065D041BF6737A562 /* HTTPHandler.swift in Sources */,
+				EE5EA9C6DC765890317E8A39C6FB55C4 /* NativeEngine.swift in Sources */,
+				7CB9F4B58E2EA7DD4EE2A1FA08AEA2C9 /* Security.swift in Sources */,
+				8B9A4A406BC2D23E35F171A2D41BEE85 /* Server.swift in Sources */,
+				B43D503884782BF44D268114CB3913F1 /* Starscream-dummy.m in Sources */,
+				9FC796526AC94B24860131F53BEC9BE0 /* StringHTTPHandler.swift in Sources */,
+				9D09B5EC579C1CA792B78B88A2227DB9 /* TCPTransport.swift in Sources */,
+				2C5A549A74E40E5272D70ED4BE7E4513 /* Transport.swift in Sources */,
+				8D9E54B27153C003B6D2DC982B6A358F /* WebSocket.swift in Sources */,
+				BE4290ACBA73D444D9E6C01847B4A469 /* WebSocketServer.swift in Sources */,
+				74455C77C99A2E81D9D0A4E2E5C9DF39 /* WSCompression.swift in Sources */,
+				3FBF55780FFD1C41A8A0AE3198582668 /* WSEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEC2732303EB2923E0B7FEACAD3C05A5 /* Sources */ = {
+		C97E431325EA34D2D1E163F7D1DF4420 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5925AD3E4CC35883B3A6C7735B62E712 /* Pods-testFaceAuthDemo-dummy.m in Sources */,
+				358B48FB39D33ACF4F707F7BE6645F29 /* Pods-testFaceAuthDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1ED0E0B6A0659D88BA3573127D884A3B /* PBXTargetDependency */ = {
+		16316A836CE500C27C16A27F883C4C1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iProov;
 			target = F50B6ACAB8097BFE2624F2E79BB3FD3F /* iProov */;
-			targetProxy = AF771E45EB457AE5789D1D4ED445619C /* PBXContainerItemProxy */;
+			targetProxy = CB08C0C8609345CF592B8303D83774E4 /* PBXContainerItemProxy */;
 		};
-		555BB5F53EC6284557409C80883AF2A7 /* PBXTargetDependency */ = {
+		1DB93D03A25C488EED2876F596007D90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iProov;
 			target = F50B6ACAB8097BFE2624F2E79BB3FD3F /* iProov */;
-			targetProxy = F260D2B41FC9884A904538AF777C6573 /* PBXContainerItemProxy */;
+			targetProxy = 95127D592004B09A4E9D88CADFDFE128 /* PBXContainerItemProxy */;
 		};
-		67AB3362508C38EB89A3C4EEFC971022 /* PBXTargetDependency */ = {
+		369B9EF01F8BF43812831ECE88BD0394 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Starscream;
 			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
-			targetProxy = 4A920BD97A4382EFAAF947FB4B46735D /* PBXContainerItemProxy */;
+			targetProxy = 8591E5BB312AFB25E5A7E7B7909A1EE7 /* PBXContainerItemProxy */;
 		};
-		759B67941381D98F810292C0AC8DD59A /* PBXTargetDependency */ = {
+		82A61B4D61445BC3C5EF259FC090C631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceLiveness;
+			target = 2EEE5F59F3438A0625957CB5FE79E09F /* FaceLiveness */;
+			targetProxy = 8D783FD3B9B3773D13623450B7669964 /* PBXContainerItemProxy */;
+		};
+		9EEDD9DC4D14B04D601339C585B85C21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Starscream;
 			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
-			targetProxy = 8D8D36037CA2B38BEFE91856EBC3977B /* PBXContainerItemProxy */;
+			targetProxy = B571FE50626EB1D85FBF7B178FDF5A06 /* PBXContainerItemProxy */;
 		};
-		7BFC358DA36477538E1B5FA91E965F19 /* PBXTargetDependency */ = {
+		A1BD9D2FB321662418DBEE0A99B57CD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FaceAuthenticatorIproov;
-			target = 56FCAB1F6EB88013552C16D26A5F9D19 /* FaceAuthenticatorIproov */;
-			targetProxy = 44C9D8F6337254FA9EF2F679A1355178 /* PBXContainerItemProxy */;
+			name = FaceAuth;
+			target = 6E686EAC34BC790B1DA2581D95F599E6 /* FaceAuth */;
+			targetProxy = EA760E3B54776FDD5E0D736EFE8757E2 /* PBXContainerItemProxy */;
 		};
-		A7F9DADD133B6C835D37D6EFDB2B4356 /* PBXTargetDependency */ = {
+		A37B3C9C2C2DDEF6DB80F8881D0F5CF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FaceLivenessIproov;
-			target = 504229C9ED7C32100CD5F1A0816FA453 /* FaceLivenessIproov */;
-			targetProxy = 8A696FFA89D41639A3EBACF43B0DD944 /* PBXContainerItemProxy */;
-		};
-		BC2E007C513BE9861FF628356B5EE834 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FaceLivenessIproov;
-			target = 504229C9ED7C32100CD5F1A0816FA453 /* FaceLivenessIproov */;
-			targetProxy = BB7AB9A176FB71560FFED7611A2D67C7 /* PBXContainerItemProxy */;
+			name = FaceLiveness;
+			target = 2EEE5F59F3438A0625957CB5FE79E09F /* FaceLiveness */;
+			targetProxy = F27726343DF6E35AA6BF27E8F9ADF6E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11E00F280D548617478909AEB4A0378E /* Release */ = {
+		0150F3E8D75C01C211BFFF6954F5DDDA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E159EE88D3618F7B1E336B1A74D2665A /* FaceLivenessIproov.release.xcconfig */;
+			baseConfigurationReference = A4C98FBBE20DF9390DCF636DC203C234 /* FaceAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BCF51348B841AF618D840ACE44B294D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74514B91810A4764481BB8D5106EE56D /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F00E1B75B3B2A91B8272AFD7D55336F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF1FC14F5AEC12994D1D03141CF3624 /* FaceAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -667,7 +720,80 @@
 			};
 			name = Release;
 		};
-		33FB8F6301BF002526809BEF6F0DC157 /* Release */ = {
+		3C6A507E58972BD4BF1E16EEE29B45D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85870BE45B6A500B78CDF8379D89824 /* Starscream.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52BF8280E79952778F922B9B6F0EAD78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93797288FA67751A39258B8252F45D85 /* Pods-testFaceAuthDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		599E2207921186C803C0CC2C5161D5A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42FBFE58F77ADD39BF1817C5B49FC497 /* Pods-testFaceAuthDemo.release.xcconfig */;
 			buildSettings = {
@@ -705,9 +831,9 @@
 			};
 			name = Release;
 		};
-		50D7D148C66F0D1CC0E70BAC0654D488 /* Debug */ = {
+		62A505BE62E777254B51DB17B467930E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F8B21BD96E9CA495E34F75973056A52 /* FaceLivenessIproov.debug.xcconfig */;
+			baseConfigurationReference = FA35B6A111694AF5939490C92F37BF56 /* FaceLiveness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -722,63 +848,9 @@
 			};
 			name = Debug;
 		};
-		5BCDA77C1072FD738087C78AAA243F22 /* Debug */ = {
+		686EC7D89E4EFDA88C2E4747827E0899 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93797288FA67751A39258B8252F45D85 /* Pods-testFaceAuthDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-testFaceAuthDemo/Pods-testFaceAuthDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6DCE6783036F43E47DB2A7BB0AA87AE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AB2A58925593D4701C7ECD4099BF277 /* FaceAuthenticatorIproov.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		71D0FF515E21C214CD908E675DD585AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C342AA0EEF9746BF26C0F03CBADD5C32 /* FaceAuthenticatorIproov.release.xcconfig */;
+			baseConfigurationReference = 1172FF73406E9B31702180292768A719 /* FaceLiveness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -793,6 +865,23 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		7B5C4BC87510B33F8F1F19D04EEFD78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E25D6E211653C67D684FDF0A8663A6 /* iProov.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -860,60 +949,9 @@
 			};
 			name = Debug;
 		};
-		7D445712A55371ECD4F35C1A8E678BB8 /* Debug */ = {
+		EA05B95443DDDFA412B2953D5EC92B01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA82A8925679B26990F882EC7503C766 /* Starscream.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
-				PRODUCT_MODULE_NAME = Starscream;
-				PRODUCT_NAME = Starscream;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8275CA905B4162556809CC126B9E7890 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8C461E5F8BD535339A70ED181042073 /* iProov.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B18AC07C00AC09F02E70E489511EC032 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E1F9F702C74DD65DF9F06885CCFC51F /* iProov.release.xcconfig */;
+			baseConfigurationReference = B17E753F314EA9EFFA2151A53D1E1132 /* iProov.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -926,41 +964,6 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D116D0EC6F36C516AFFD4DC5E72712DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8778B145C7C252C568BB6E7B4FB29767 /* Starscream.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
-				PRODUCT_MODULE_NAME = Starscream;
-				PRODUCT_NAME = Starscream;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1029,24 +1032,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17C95161A2A9DCD7AC617DE2917199B1 /* Build configuration list for PBXNativeTarget "Pods-testFaceAuthDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5BCDA77C1072FD738087C78AAA243F22 /* Debug */,
-				33FB8F6301BF002526809BEF6F0DC157 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FAB3280F7E440F61915658249C5091A /* Build configuration list for PBXAggregateTarget "iProov" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8275CA905B4162556809CC126B9E7890 /* Debug */,
-				B18AC07C00AC09F02E70E489511EC032 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1056,29 +1041,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C09D5B93BA59542158E2F5D99CB6990 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+		68D9025441814B6EB994324414DD6249 /* Build configuration list for PBXAggregateTarget "iProov" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D445712A55371ECD4F35C1A8E678BB8 /* Debug */,
-				D116D0EC6F36C516AFFD4DC5E72712DB /* Release */,
+				7B5C4BC87510B33F8F1F19D04EEFD78C /* Debug */,
+				EA05B95443DDDFA412B2953D5EC92B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BE484BAAFD92028937EE10EE54E2C5E /* Build configuration list for PBXAggregateTarget "FaceAuthenticatorIproov" */ = {
+		68F70EDF582EED6332CEE27C2CF9172E /* Build configuration list for PBXAggregateTarget "FaceLiveness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DCE6783036F43E47DB2A7BB0AA87AE3 /* Debug */,
-				71D0FF515E21C214CD908E675DD585AD /* Release */,
+				62A505BE62E777254B51DB17B467930E /* Debug */,
+				686EC7D89E4EFDA88C2E4747827E0899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A6B0257E5BD530DDA8022821416BD23 /* Build configuration list for PBXAggregateTarget "FaceLivenessIproov" */ = {
+		C103BFC258703A2417BF398064E73C40 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50D7D148C66F0D1CC0E70BAC0654D488 /* Debug */,
-				11E00F280D548617478909AEB4A0378E /* Release */,
+				0BCF51348B841AF618D840ACE44B294D /* Debug */,
+				3C6A507E58972BD4BF1E16EEE29B45D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF65EC3364B64331876383697CDCA0CF /* Build configuration list for PBXAggregateTarget "FaceAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0150F3E8D75C01C211BFFF6954F5DDDA /* Debug */,
+				0F00E1B75B3B2A91B8272AFD7D55336F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF98FF15F3ED71D9DDCAF204DB50BB72 /* Build configuration list for PBXNativeTarget "Pods-testFaceAuthDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BF8280E79952778F922B9B6F0EAD78 /* Debug */,
+				599E2207921186C803C0CC2C5161D5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,9 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## FaceAuthenticatorIproov
+## FaceAuth
 
-Copyright (c) 2023 Comate a Fraude <ti@combateafraude.com>
+Copyright (c) 2020 fernando@mobsolution.com.br <fernando@mobsolution.com.br>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## FaceLivenessIproov
+## FaceLiveness
 
 Copyright (c) 2023 Comate a Fraude <ti@combateafraude.com>
 

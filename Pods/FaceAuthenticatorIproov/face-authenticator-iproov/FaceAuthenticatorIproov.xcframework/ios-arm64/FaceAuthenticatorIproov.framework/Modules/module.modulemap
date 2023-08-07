@@ -1,4 +1,0 @@
-framework module FaceAuthenticatorIproov {
-  header "FaceAuthenticatorIproov-Swift.h"
-  requires objc
-}

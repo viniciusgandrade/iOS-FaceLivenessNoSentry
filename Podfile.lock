@@ -1,30 +1,30 @@
 PODS:
-  - FaceAuthenticatorIproov (1.1.0):
-    - FaceLivenessIproov (= 1.3.0)
-  - FaceLivenessIproov (1.3.0):
+  - FaceAuth (1.9.0):
+    - FaceLiveness (= 1.4.0)
+  - FaceLiveness (1.4.0):
     - iProov (= 10.3.0)
   - iProov (10.3.0):
     - Starscream (~> 4.0)
   - Starscream (4.0.4)
 
 DEPENDENCIES:
-  - FaceAuthenticatorIproov (~> 1.1.0)
-  - FaceLivenessIproov (~> 1.3.0)
+  - FaceAuth (~> 1.9.0)
+  - FaceLiveness (~> 1.4.0)
 
 SPEC REPOS:
   https://github.com/combateafraude/iOS:
-    - FaceAuthenticatorIproov
-    - FaceLivenessIproov
+    - FaceAuth
+    - FaceLiveness
   trunk:
     - iProov
     - Starscream
 
 SPEC CHECKSUMS:
-  FaceAuthenticatorIproov: e3dd309d5192de049117c8ada96a4d38ce11fc54
-  FaceLivenessIproov: 2f3742da45a629809a13c2f1f9b0019520f1aebc
+  FaceAuth: dc268453c083916d5f27adba2bacf62991aa228a
+  FaceLiveness: 41825efeea76b96055a86fe0f861964ac2074b6f
   iProov: 4f50623887ec2be48f841b157c94ba85099a9d1d
-  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  Starscream: 1584f7c3299c3772887a2e75d4c14e97266f55e4
 
-PODFILE CHECKSUM: 5c051d9b6c68ffe7ed856afafb74f805be85d7c2
+PODFILE CHECKSUM: fa539928f27192d43b664f2efddb5ae7fd3c1c46
 
 COCOAPODS: 1.12.1
