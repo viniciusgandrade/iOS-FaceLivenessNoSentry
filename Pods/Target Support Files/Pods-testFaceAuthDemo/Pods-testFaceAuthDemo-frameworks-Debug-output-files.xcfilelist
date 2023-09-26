@@ -1,4 +1,0 @@
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaceAuthenticator.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaceLiveness.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iProov.framework

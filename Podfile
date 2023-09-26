@@ -6,9 +6,7 @@ source 'https://cdn.cocoapods.org'
 target 'testFaceAuthDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'FaceAuth', '~> 1.9.0'
-  
-  pod 'FaceLiveness', '~> 1.4.0'
+  pod 'PassiveFaceLivenessNoSentry', '6.0.0-rc02'
   # Pods for testFaceAuthDemo
 
 end

@@ -1,0 +1,6 @@
+build
+Pods
+Podfile.lock
+DerivedData
+xcuserdata
+
